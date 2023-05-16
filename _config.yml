@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一个碎碎碎碎碎碎碎碎碎念
+title: 一个碎碎碎碎念
 subtitle: ''
 description: '曳尾于涂中'
 keywords:
@@ -14,6 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://SangYukekeaiai.github.io/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,8 +102,11 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-# Linux: git@github.com:SangYukekeaiai/SangYukekeaiai.github.io.git
+
 deploy:
   type: git
-  repo: https://github.com/SangYukekeaiai/SangYukekeaiai.github.io
-  branch: tree/master
+  # Linux:
+  repo: git@github.com:SangYukekeaiai/SangYukekeaiai.github.io.git 
+  # Windows:
+  # repo: https://github.com/SangYukekeaiai/SangYukekeaiai.github.io
+  branch: master
